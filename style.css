@@ -1,0 +1,79 @@
+/* Custom styles for the dashboard */
+body {
+    background-color: #1a1a1a;
+    color: #ffffff;
+}
+
+.card {
+    background-color: #2d2d2d;
+    border: 1px solid #404040;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+    background-color: #2d2d2d;
+    border-bottom: 1px solid #404040;
+}
+
+.table {
+    color: #ffffff;
+}
+
+.table-dark {
+    background-color: #2d2d2d;
+}
+
+.table-dark td, .table-dark th {
+    border-color: #404040;
+}
+
+.table-hover tbody tr:hover {
+    background-color: #404040;
+}
+
+/* Price change colors */
+.positive-change {
+    color: #00ff00;
+}
+
+.negative-change {
+    color: #ff4444;
+}
+
+/* Alert styles */
+.alert {
+    margin-bottom: 1rem;
+    border: none;
+    border-radius: 4px;
+}
+
+.alert-high {
+    background-color: rgba(255, 0, 0, 0.1);
+    border-left: 4px solid #ff4444;
+}
+
+.alert-low {
+    background-color: rgba(0, 255, 0, 0.1);
+    border-left: 4px solid #00ff00;
+}
+
+/* Chart container */
+#priceChart {
+    height: 300px;
+    width: 100%;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+    
+    .card {
+        margin-bottom: 1rem;
+    }
+    
+    .table-responsive {
+        margin-bottom: 1rem;
+    }
+} 

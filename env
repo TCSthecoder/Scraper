@@ -1,0 +1,7 @@
+# Coinbase Advanced Trade API credentials
+# Get these from https://www.coinbase.com/settings/api
+COINBASE_API_KEY=bfbea122-a7ad-4acb-b222-5b903c5bfab3
+COINBASE_API_SECRET=NRU2wxLivXyKnE3DLRvKvJ8MXCOG3P+7TQCzTvCBH62YsN1RmUI+FgHiRrPqsaBSWOflRSIOQDZZt+8q+gZc9w==
+
+FLASK_SECRET_KEY=your-secure-secret-key-here
+PORT=5000
